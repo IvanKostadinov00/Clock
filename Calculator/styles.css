@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(numbers.jpg);
+    background-size: cover; /* Покрива целия екран */
+    background-position: center; /* Центрира изображението */
+    background-repeat: no-repeat; /* Избягва повторение на изображението */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .calculator {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: calc(100% - 3px); /* Променете този стил */
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: right;
+    box-sizing: border-box; /* Добавете този стил */
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #666;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
